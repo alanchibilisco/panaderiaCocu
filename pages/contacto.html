@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pagina de panaderia cocu" />
+    <meta name="author" content="Emilse" />
+    <meta
+      name="keywords"
+      content="pan, tortillas, brownie, masas finas, facturas"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6e90fa897f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Panaderia Cocu-Contacto</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo de la panaderia cocu"
+              width="90"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navPanaderia"
+            aria-controls="navPanaderia"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navPanaderia">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="my-5">
+        <h1 class="display-2 text-center">Contacto</h1>
+        <hr />
+        <article class="row">
+          <div class="col-sm-12 col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label">
+                  Nombre y Apellido <span class=" text-danger">*</span></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreApellido"
+                  placeholder="Juan Perez"
+                  required
+                  minlength="3"
+                  maxlength="30"
+                />                
+              </div>
+              <div class=" mb-3">
+                <label for="email" class=" form-label">Email <span class=" text-danger">*</span></label>
+                <input type="email" id="email" class=" form-control" placeholder="ejemplo@ejemplo.com" required minlength="10" maxlength="30">
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class=" form-label">Consulta</label>
+                <textarea name="otro" id="consulta" rows="4" class=" form-control" placeholder="Agregue su consulta aqui" required minlength="3"></textarea>
+
+              </div>
+              <button type="submit" class="btn btn-primary mb-3">
+                Enviar
+              </button>
+            </form>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14240.416229016138!2d-65.22634465!3d-26.83664245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1630358242308!5m2!1ses-419!2sar" class="w-100" height="450"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-5">
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <a class="navbar-brand" href="../index.html">
+              <img
+                src="../img/cocu_logo-450.png"
+                alt="logo de la panaderia cocu"
+                width="40%"
+                class=""
+              />
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p class="h6 mb-4">Horarios de atencion:</p>
+
+            <p class="fontfoo">Lunes a viernes: 09hs-18hs.</p>
+            <p class="fontfoo">Sabado, domingo y feriados: 09hs-14hs.</p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p class="h6 mb-4">Seguinos en nuestras redes:</p>
+            <div class="ms-0">
+              <i class="fab fa-facebook-square ms-0 fa-2x"></i>
+              <i class="fab fa-twitter-square ms-2 fa-2x"></i>
+              <i class="fab fa-instagram-square ms-2 fa-2x"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

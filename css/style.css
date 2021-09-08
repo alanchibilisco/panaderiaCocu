@@ -1,0 +1,17 @@
+.efectoimg:hover{
+    filter: opacity(50%);
+}
+.fontfoo{
+    font-size: 14px;
+    line-height: 10px;
+}
+
+@media all and (max-width: 576px){
+    .img-responsive{
+        height: 250px;
+        object-fit: cover;/*propiedad para ajustar la imagen pero se pierde a los bordes*/
+    }
+    .center{
+        text-align: center;
+    }
+}
